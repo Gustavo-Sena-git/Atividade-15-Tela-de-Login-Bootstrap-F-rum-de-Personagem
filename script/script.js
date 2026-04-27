@@ -1,17 +1,17 @@
 function logar(){
-    var login = document.getElementById('login').value;
+    var login = document.getElementById('usuario').value;
     var senha = document.getElementById('senha').value;
     var mensagem = document.getElementById("mensagem");
 
-    if(login === ""){
+    if(usuario === ""){
         mensagem.innerText = "Preencha este campo";
         return;
     }
-    if(senha === ""){
+    if(usuario === ""){
         mensagem.innerText = "Preencha este campo"
         return;
     }
-    if(login === "admin" && senha === "admin"){
+    if(usuario === "admin" && senha === "admin"){
         location.href = "index/index.html";
     }else{
         mensagem.innerText = "Usuario ou senha invalidos"
