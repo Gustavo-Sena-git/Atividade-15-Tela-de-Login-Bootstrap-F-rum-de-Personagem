@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Aluno</title>
+    <title>Homem Aranha</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -22,27 +22,24 @@
                 
                 <div class="col" style="margin: 20px;">
                     <label for="exampleFormControlInput1" class="form-label">Usuário</label>
-                    <input id="usuario" type="text" class="form-control" placeholder="" aria-label="Usuário" value="admin" required>
-                    <div id="erroUsuario" class="erro"></div>
+                    <input id="usuario" type="text" class="form-control" required>
+                    <div id="erroUsuario" class="invalid-feedback"></div>
                 </div>
 
                 <div class="col" style="margin: 20px;">
                     <label for="exampleFormControlInput1" class="form-label">Senha</label>
-                    <input id="senha" type="text" class="form-control" placeholder="" aria-label="senha" value="1234" required>
-                    <div id="erroSenha" class="erro"></div>
+                    <input id="senha" type="text" class="form-control" required>
+                    <div id="erroSenha" class="invalid-feedback"></div>
                 </div>
 
-                <button type="button" class="btn btn-danger" style="margin: 20px;">Entrar</button>
+                <button type="submit" class="btn btn-danger" style="margin: 20px;">Entrar</button>
 
             </form>
 
             <div class="resultado" id="resultado"></div>
 
         </div>
-    </div>
-
-    <img id="HomemAranha" src="Imagens/HomemAranha.jpg" alt="Spider Man">
-
+ </div>
     <script src="script.js"></script>
 
 </body>

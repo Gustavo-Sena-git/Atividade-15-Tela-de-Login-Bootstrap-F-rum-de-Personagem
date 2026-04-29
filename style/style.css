@@ -20,3 +20,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.elemento{
+    background-image: url(Imagens/Spider-Man-Cartoon-PNG-Image-Background.png) ;
+}
